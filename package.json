@@ -4,8 +4,8 @@
   "description": "Create an array of variations from a shape",
   "main": "code.js",
   "scripts": {
-    "build": "/usr/local/bin/node node_modules/.bin/webpack --mode=production",
-    "build:watch": "/usr/local/bin/node node_modules/.bin/webpack --mode=development --watch"
+    "build": "webpack --mode=production",
+    "build:watch": "webpack --mode=development --watch"
   },
   "author": "Kuldar Kalvik",
   "license": "ISC",
